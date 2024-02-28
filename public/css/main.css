@@ -2,19 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Nova Mono', monospace;
     font-size: 16px;
     font-weight: 400;
-    color: #FFFFFF;
+    color: whitesmoke;
     scroll-behavior: smooth;
 }
 
 body {
-    background-color: #13161e;
+    background-color: #222;
 }
 
-h1, h2, h3 {
-    font-family: 'Varela Round', sans-serif;
+h1,
+h2,
+h3 {
+    font-family: 'Nova Mono', monospace;
 }
 
 h2 {
@@ -32,25 +34,32 @@ h3 {
     letter-spacing: 0.1em;
 }
 
-a, span {
-    font-family: "Inconsolata", monospace;
+a,
+span {
+    font-family: "DM Sans", sans-serif;
     font-size: inherit;
     font-weight: inherit;
-}
-
-.yellow {
-    color: #fff44f;
 }
 
 .bold {
     font-weight: 700;
 }
 
-.blue {
-    font-family: "Inconsolata", monospace;
+.pantone {
+    font-family: "Nova Mono", monospace;
     font-size: inherit;
     font-weight: inherit;
-    color: #3e8ede;
+    color: #6C1D45;
+}
+
+.gray {
+    color: #222;
+    font-family: "DM Sans", sans-serif;
+}
+
+.fuchsia {
+    color: #de3edb;
+    font-family: "DM Sans", sans-serif;
 }
 
 ul {
@@ -62,7 +71,7 @@ ul {
 }
 
 .social-link a i:hover {
-    color: #F08CAE;
+    color: #de3edb;
 }
 
 .main-container {
@@ -82,14 +91,14 @@ section {
 }
 
 section .hyperlink {
-    color: #F08CAE;
+    color: #de3edb;
     font-weight: 700;
     text-decoration: underline;
     transition: all 0.2s ease;
 }
 
 section .hyperlink:hover {
-    color: #7EB77F;
+    color: #3e8ede;
 }
 
 .section-description {
@@ -117,6 +126,7 @@ section .hyperlink:hover {
     h2 {
         font-size: 2.5em;
     }
+
     h3 {
         font-size: 2em;
     }

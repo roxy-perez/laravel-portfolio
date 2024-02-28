@@ -7,35 +7,28 @@
         <section id="home">
             <div class="landing-page-details">
                 <h1 class="small-title">Hi,</h1>
-                <h2 class="big-title">I'm <span class="my-name blue">Roxy Pérez</span></h2>
-                <h3 class="medium-title"><em>Full-Stack Developer @<a class="yellow"
-                            href="https://www.foundspot.com/" target="_blank">Foundspot</a></em></h3>
-                <!-- <div class="short-bio">
-                        <p>I am a photographer, self-taught developer, and
-                            mother of a bear
-                            puppy named Coconut
-                            based in Los Angeles, California.</p>
-                    </div> -->
-
+                <h2 class="big-title">I'm <span class="my-name fuchsia">Roxy Pérez</span></h2>
+                <h3 class="medium-title"><em>Full-Stack Developer <a class="fuchsia" href="https://www.foundspot.com/"
+                            target="_blank"> @Foundspot</a></em></h3>
             </div>
             <div class="art-me">
-                <img src="{{ asset('img/me-avatar.png') }}" alt="My avatar.">
+                <img src="{{ asset('img/me-3d.jpg') }}" alt="My avatar.">
             </div>
             <div class="landing-page-socials">
                 <ul>
                     <li class="social-link">
-                        <a href="https://www.linkedin.com/in/anniewu2303/" aria-label="LinkedIn" target="_blank">
+                        <a href="https://www.linkedin.com/in/roxy-perez-polanco/" aria-label="LinkedIn" target="_blank">
                             <i class="fa-brands fa-linkedin-in"></i>
                         </a>
                     </li>
                     <li class="social-link">
-                        <a href="https://github.com/anniedotexe" aria-label="GitHub" target="_blank">
+                        <a href="https://github.com/roxy-perez" aria-label="GitHub" target="_blank">
                             <i class="fa-brands fa-github"></i>
                         </a>
                     </li>
                     <li class="social-link">
-                        <a href="https://instagram.com/anniedotexe" aria-label="Instagram" target="_blank">
-                            <i class="fa-brands fa-instagram"></i>
+                        <a href="https://www.linkedin.com/in/roxy-perez-polanco" aria-label="Flickr" target="_blank">
+                            <i class="fa-brands fa-flickr"></i>
                         </a>
                     </li>
                 </ul>

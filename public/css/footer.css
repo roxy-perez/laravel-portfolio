@@ -65,7 +65,7 @@
 
 .footer-button:hover {
     text-decoration: underline;
-    color: #F08CAE;
+    color: #de3edb;
 }
 
 .footer-button:not(:last-child) {

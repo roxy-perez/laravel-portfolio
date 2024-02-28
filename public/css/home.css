@@ -48,8 +48,8 @@
 }
 
 .my-name {
-    letter-spacing: 0.1em;
-    font-family: 'Inconsolata', monospace;
+    letter-spacing: 0.03em;
+    font-family: "DM Sans", sans-serif;
 }
 
 h3 {
@@ -58,12 +58,12 @@ h3 {
 }
 
 h3 em {
-    color: white;
+    color: whitesmoke;
     letter-spacing: 0.05em;
 }
 
 h3 a:hover {
-    color: #7EB77F;
+    color: #3e8ede;
     text-decoration: underline;
 }
 
@@ -94,11 +94,11 @@ h3 a:hover {
     width: -moz-fit-content;
     padding: 10px 12px;
     border-radius: 15px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid whitesmoke;
     font-weight: 700;
     letter-spacing: 0.05em;
-    color: #13161e;
-    background-color: #FFFFFF;
+    color: #222;
+    background-color: whitesmoke;
     margin-top: 50px;
     transition: all 0.2s ease;
     cursor: pointer;
@@ -111,13 +111,13 @@ h3 a:hover {
 
 .cta span {
     margin-left: 10px;
-    color: #13161e;
+    color: #222;
     font-weight: 700;
 }
 
 .email-button {
-    border: 1px solid #F08CAE;
-    background-color: #F08CAE;
+    border: 1px solid #222;
+    background-color: #de3edb;
 }
 
 .cta:hover {
@@ -134,6 +134,11 @@ h3 a:hover {
 .art-me img {
     height: 100%;
     border-radius: 50%;
+        filter: var(--svg-invert-filter);
+}
+
+.art-me svg {
+    filter: var(--svg-invert-filter);
 }
 
 @media only screen and (min-width: 768px) {

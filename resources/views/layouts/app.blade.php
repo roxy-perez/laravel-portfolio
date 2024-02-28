@@ -10,7 +10,7 @@
 
     <meta charset="UTF-8">
 
-    <meta property="og:title" content="Annie Wu" />
+    <meta property="og:title" content="Roxy Pérez" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://anniew.xyz" />
     <meta property="og:description" content="Hi! I'm Roxy." />
@@ -18,18 +18,20 @@
     <meta property="og:image" content="https://anniew.xyz/img/me-icon-smiling.png" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="copyright" content="Annie Wu">
-    <meta name="description" content="Hi! I'm Annie.">
+    <meta name="copyright" content="Roxy Pérez">
+    <meta name="description" content="Hi! I'm Roxy Pérez.">
     <meta name="keywords"
-        content="Annie Wu, Annie Wu Portfolio, Annie Wu Photography, photographer, developer, java, python, html, css, javascript, web developer, webdev, portfolio, quality assurance, qa engineer, quality assurance engineer">
+        content="Roxy Pérez, Roxy Pérez Portfolio, Roxy Pérez Photography, photographer, developer, java, laravel, html, css, javascript, web developer, webdev, portfolio, laravel developer">
     <meta name="robots" content="noindex, nofollow" />
 
     <link rel="canonical" href="https://anniew.xyz" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nova+Mono&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 
@@ -48,7 +50,7 @@
             <ul class="nav-menu">
                 <li class="nav-item"><a href="/about">About</a></li>
                 <li class="nav-item"><a href="/projects">Projects</a></li>
-                <li class="nav-item"><a href="https://anniedotexe.mypixieset.com/">Photos</a>
+                <li class="nav-item"><a href="https://www.flickr.com/photos/rsujell/">Photos</a>
                 </li>
             </ul>
         </nav>
@@ -59,28 +61,28 @@
     <footer class="footer-container">
         <div class="footer">
             <div class="footer-column">
-                <a href="/" class="footer-logo">@anniedotexe</a>
+                <a href="/" class="footer-logo">@roxyperez</a>
                 <div class="socials">
                     <ul>
                         <li class="social-link">
-                            <a href="https://www.linkedin.com/in/anniewu2303/" aria-label="LinkedIn" target="_blank">
+                            <a href="https://www.linkedin.com/in/roxy-perez-polanco/" aria-label="LinkedIn"
+                                target="_blank">
                                 <i class="fa-brands fa-linkedin-in"></i>
                             </a>
                         </li>
                         <li class="social-link">
-                            <a href="https://github.com/anniedotexe" aria-label="GitHub" target="_blank">
+                            <a href="https://github.com/roxy-perez/" aria-label="GitHub" target="_blank">
                                 <i class="fa-brands fa-github"></i>
                             </a>
                         </li>
                         <li class="social-link">
-                            <a href="https://instagram.com/anniedotexe" aria-label="Instagram" target="_blank">
-                                <i class="fa-brands fa-instagram"></i>
+                            <a href="https://www.flickr.com/photos/rsujell/" aria-label="Flickr" target="_blank">
+                                <i class="fa-brands fa-flickr"></i>
                             </a>
                         </li>
                     </ul>
                 </div>
-                <span class="copyright"><i class="fa-regular fa-copyright"></i> Annie Wu
-                    2021-2024</span>
+                <span class="copyright"><i class="fa-regular fa-copyright"></i>Roxy Pérez - 2024</span>
             </div>
             <div class="footer-column">
                 <a href="/about" class="footer-button">
@@ -94,10 +96,6 @@
 
             </div>
             <div class="footer-column">
-                <!-- <a href="https://www.polywork.com/anniedotexe" class="footer-button">
-                                            <img src="./img/polywork.svg" alt="PolyWork Icon">
-                                            Updates
-                                        </a> -->
                 <a href="https://anniedotexe.mypixieset.com/" class="footer-button">
                     <img src="{{ asset('img/camera.svg') }}" alt="Camera Icon">
                     Photos

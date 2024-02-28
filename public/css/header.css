@@ -14,13 +14,14 @@ header {
     height: 70px;
     padding: 0 15px;
     z-index: 2;
-    background-color: #13161e;
+    background-color: #222;
 }
 
 .header-logo {
     padding: 10px;
     font-size: 1.2em;
     letter-spacing: 0.05em;
+    color: #222;
 }
 
 .nav-menu {
@@ -41,15 +42,18 @@ header {
 .nav-item a {
     display: block;
     padding: 20px;
+    font-family: "Nova Mono", monospace;
+    font-size: 1.2em;
     font-weight: 700;
     width: 100vw;
     letter-spacing: 0.1em;
     transition: all 0.2s ease;
-    color: #13161e;
+    color: #222;
 }
 
-.nav-item a:hover, .nav-item a:focus {
-    color: #fff44f;
+.nav-item a:hover,
+.nav-item a:focus {
+    color: #3e8ede;
     text-decoration: underline;
 }
 
@@ -76,14 +80,16 @@ header {
         justify-content: space-between;
         align-items: center;
     }
+
     .nav-menu {
         position: relative;
         align-items: center;
         flex-direction: row;
-        background-color: #13161e;
+        background-color: #222;
         height: fit-content;
         height: -moz-fit-content;
     }
+
     .nav-item {
         position: relative;
         display: block;
@@ -91,11 +97,13 @@ header {
         width: -moz-fit-content;
         margin: 0;
     }
+
     .nav-item a {
         width: fit-content;
         width: -moz-fit-content;
-        color: #FFFFFF;
+        color: whitesmoke;
     }
+
     .toggle {
         display: none;
     }
